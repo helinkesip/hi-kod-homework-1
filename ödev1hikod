@@ -1,0 +1,47 @@
+#ödev-1
+a = int(1.8)
+b = int(2)
+c= int("3")
+
+print(type(a)) #3 ü de şuan integer
+
+a = float(a)
+print(type(a)) #şuan a float, veri dönüşümü ile
+
+c = str(c)
+print(type(c))
+
+#ödev-2
+helin=19
+ayşe=10
+batu=20
+print(not(helin<ayşe)) #true döndürür
+print(helin>ayşe) #true döndürür
+print(batu<=helin) #false döndürür
+
+#ödev-3
+h = int(input("Bir sayı giriniz= "))
+k = int(input("Bir sayı giriniz= "))
+print("toplama= " + str(h+k))
+print("çıkarma= " + str(h-k))
+print("çarpma= " + str(h*k))
+print("bölme= " + str(h//k))
+
+#ödev-4
+isim = input("İsminiz nedir?")
+yaş = input("Yaşınız nedir?")
+şehir = input("Yaşadığınız şehir nedir?")
+meslek = input("Mesleğiniz nedir?")
+print("ismi= " +isim, "yaşı= "+yaş,"şehiri= " +şehir,"mesleği= "+meslek)
+
+#ödev-5
+kelime = str("Hi-Kod Veri Bilimi Atölyesi")
+print(kelime.upper)
+print(kelime.lower)
+print(kelime.split)
+
+#ödev-6
+sayılar = "0123456789"
+çift = sayılar[::2]
+tek = sayılar[1::2]
+print(tek, çift)
